@@ -7,11 +7,12 @@
 	<title>LatticeCMS &ldquo;It's Made of People!&rdquo;</title>
 	<?=$stylesheet;?>
 	<?=$javascript;?>
+	<link href="application/views/style.css" rel="stylesheet" type="text/css">
 </head>
 <body class="">
-	<div id="container" class="container_12">
 <?=Request::Factory('header/public')->execute()->body();?>
 <?=Request::Factory('publicmenu')->execute()->body();?>
+<div class="container">
 <?=$body;?>
 <?=Request::Factory('footer/public')->execute()->body();?>
 	</div>

@@ -5,55 +5,66 @@
 
 	<objectTypes>
 
-		<objectType name="category" contentType="category" allowChildSort="true" allowDelete="false" allowTogglePublish="false">
-			<addableObject objectTypeName="article" addText="Add an Article" />
-		</objectType>
-
-		<objectType name="article" contentType="document" allowDelete="true" >
+		<objectType name="home" contentType="category" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
 			<elements>
-				<text name="multilineIPE" label="Body" isMultiline="true"/>
-        <image name="file" label="Single Image">
-          <resize name="test" width="96" height="58" forceDimension="height" /> 
-          <ext>jpg</ext>
-          <ext>tiff</ext>
-          <ext>tif</ext>
-        </image>
-			</elements>
-		</objectType>
+			<text name="reviewText" label="Review Text"/>
+			<text name="reviewer" label="Reviewer Name"/>
+			<text name="bookTitle" label="Book Title"/>
+			<text name="synopsis" label="Synopsis"/>
+			<text name="linkToPurchase" label="Link to Purchase"/>
+			<image name="coverImage" label="Cover Image">
+				<ext>jpg</ext>
+				<ext>jpeg</ext>
+				<ext>tiff</ext>
+				<ext>tif</ext>
+			</image>
+			<text name="goodreads" label="Link to Goodreads"/>
+			<text name="facebook" label="link to Facebook"/>
+		</elements>
+	</objectType>
 
-    <objectType name="editorOnlyObjectType" contentType="document" allowDelete="true" initialAccessRoles="editor" />
+	<objectType name="bio" contentType="category" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+		<elements>
+			<text name="bioTitle" label="Bio Title"/>
+			<text name="bio" label="Bio" isMultiline="true"/>
+			<image name="bioImage" label="Avatar">
+				<ext>jpg</ext>
+				<ext>jpeg</ext>
+				<ext>tiff</ext>
+				<ext>tif</ext>
+			</image>
+		</elements>
+	</objectType>
 
-    <objectType name="singleAssociator" contentType="document" allowDelete="true" >
-      <elements>
-        <associator name="myAssociation" label="My Association" lattice="myAssociation" metaObjectTypeName="meta" >
-          <filter objectTypeName="article"/>
-        </associator>
-      </elements>
-    </objectType>
+	<objectType name="reviews" contentType="category" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+		<elements>
+			<image name="coverImage" label="Cover Image">
+				<ext>jpg</ext>
+				<ext>jpeg</ext>
+				<ext>tiff</ext>
+				<ext>tif</ext>
+			</image>
+		<list name="reviewList" label="Reviews">
+			<addableObject objectTypeName="review" addText="Add a Review"/>
+		</list>
+	</elements>
+	</objectType>
 
-    <objectType name="meta">
-    </objectType>
+	<objectType name="review" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+		<elements>
+			<text name="reviewText" label="Review Text"/>
+			<text name="reviewName" label="Review Name"/>
+		</elements>
+	</objectType>
 
-    <objectType name="clusterTest">
-      <elements>
-        <link name="myLink" label="My Link"/>
-      </elements>
-    </objectType>
 
-    <objectType name="defaultsTest">
-      <elements>
-        <date name="dateField" label="Date" default="now"/>
-        <date name="dateFieldNoDefault" label="Date No" />
-        <text name="textFieldDefault" label="Txt" default="Some Default Text"/>
-        <text name="textFieldNoDefault" label="Txt 2"/>
-      </elements>
-    </objectType>
-
-    <objectType name="prevNext">
-      <elements>
-        <date name="postDate" label="Date" />
-      </elements>
-    </objectType>
+	<objectType name="faq" contentType="category" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
+		<elements>
+			<list name="faqList" label="List of FAQ">
+				<addableObject objectTypeName="review" addText="Add a Review"/>
+			</list>
+		</elements>
+	</objectType>
 
   </objectTypes>
 

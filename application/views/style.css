@@ -1,0 +1,43 @@
+
+body{
+	background:black;
+	background-image: url('images/backgroundFinal.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	color:white;
+	font-family:'Helvetica', sans-serif;
+}
+
+.container{
+	width:1000px;
+	height:auto;
+	background-color: rgba(0, 0, 0, .4);
+	margin:auto;
+}
+
+.header{
+width:1000px;
+height:74px;
+margin:38px auto;
+color: rgb(121, 12, 33);
+background-color: rgba(0, 0, 0, .4);
+font-family:'Andale Mono',sans-serif;
+border-bottom: rgba(160, 98, 79, .65) 2px solid;
+}
+
+.headName{
+	float:left;
+	font-size:50px;
+	margin:15px 0;
+}
+
+.menu{
+	float:right;
+	margin:45px 15px 0;
+}
+
+.menu a{
+	color: rgb(121, 12, 33);
+	text-decoration:none;
+	margin-left:20px;
+}
