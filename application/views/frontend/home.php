@@ -15,8 +15,9 @@
 
 
 
-<!-- static content on the left -->
+<!-- static content on the right -->
 
+<div class="rightColumn">
 <?if(is_object($content['main']['coverImage'])):?>
  <img id="coverImage" src="<?=latticeurl::site($content['main']['coverImage']->original->fullpath);?>" width="<?=$content['main']['coverImage']->original->width;?>" height="<?=$content['main']['coverImage']->original->height;?>" alt="<?=$content['main']['coverImage']->original->filename;?>" />
 <?endif;?>
@@ -27,3 +28,4 @@
 
 <p class="facebook"> <?=$content['main']['facebook'];?></p>
 <!-- the twitter widget goes here -->
+</div>

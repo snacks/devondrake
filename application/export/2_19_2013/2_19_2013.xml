@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data PUBLIC "-//WINTERROOT//DTD Data//EN" "../../../modules/lattice/lattice/data.dtd">
+<data>
+  <nodes>
+    <item objectTypeName="home">
+      <field name="title">Home</field>
+      <field name="slug">homepage</field>
+      <field name="reviewText">The best new book since sliced bread! A real hit! something else complimentary!</field>
+      <field name="reviewer">Some Dude from the New York Times</field>
+      <field name="bookTitle">The Man of Nightstone </field>
+      <field name="synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a libero at erat placerat fringilla. Cras risus felis, consectetur nec venenatis sit amet, vestibulum id nisl. Nullam elementum cursus dui et adipiscing. Donec fermentum viverra nulla sed fringilla. Integer purus arcu, tempor eu ultricies eget, dapibus sit amet quam. Aenean lobortis, leo sollicitudin accumsan ullamcorper, lorem turpis aliquet lectus, et ultricies metus nibh quis nisl. Cras erat tellus, consectetur eget blandit commodo, sagittis quis quam. Aliquam tempus elementum feugiat. Vivamus lobortis orci est. Quisque quis nisl nibh, eget iaculis felis. Suspendisse adipiscing elit eget massa molestie sed volutpat ipsum semper. Duis congue iaculis diam, sed gravida purus laoreet non. Ut commodo nunc sed ipsum sollicitudin eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer justo urna, rhoncus a malesuada sit amet, posuere in nulla.&lt;br /&gt;</field>
+      <field name="linkToPurchase">http://fromthegut.org</field>
+      <field name="coverImage">application/export/2_19_2013/webFinalPass.jpg</field>
+      <field name="goodreads">http://goodreads.com</field>
+      <field name="facebook">http://facebook.com</field>
+      <field name="published">1</field>
+    </item>
+    <item objectTypeName="bio">
+      <field name="title">Bio</field>
+      <field name="slug">bio</field>
+      <field name="bioTitle">The Man Behind Nightstone</field>
+      <field name="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a libero at erat placerat fringilla. Cras risus felis, consectetur nec venenatis sit amet, vestibulum id nisl. Nullam elementum cursus dui et adipiscing. Donec fermentum viverra nulla sed fringilla. Integer purus arcu, tempor eu ultricies eget, dapibus sit amet quam. Aenean lobortis, leo sollicitudin accumsan ullamcorper, lorem turpis aliquet lectus, et ultricies metus nibh quis nisl. Cras erat tellus, consectetur eget blandit commodo, sagittis quis quam. Aliquam tempus elementum feugiat. Vivamus lobortis orci est. Quisque quis nisl nibh, eget iaculis felis. Suspendisse adipiscing elit eget massa molestie sed volutpat ipsum semper. Duis congue iaculis diam, sed gravida purus laoreet non. Ut commodo nunc sed ipsum sollicitudin eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer justo urna, rhoncus a malesuada sit amet, posuere in nulla.&lt;br /&gt;</field>
+      <field name="bioImage">application/export/2_19_2013/LegendaryGoatee.jpg</field>
+      <field name="published">1</field>
+    </item>
+    <item objectTypeName="reviews">
+      <field name="title">Reviews</field>
+      <field name="slug">reviews</field>
+      <field name="coverImage">application/export/2_19_2013/webFinalPass1.jpg</field>
+      <field name="published">1</field>
+      <item objectTypeName="reviewList">
+        <field name="title">Reviews</field>
+        <field name="slug">reviews1</field>
+        <field name="published">1</field>
+        <item objectTypeName="review">
+          <field name="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a libero at erat placerat fringilla. </field>
+          <field name="slug">slug0285651001360979792</field>
+          <field name="reviewText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a libero at erat placerat fringilla. </field>
+          <field name="reviewName">Oprah, Oprah's book club</field>
+          <field name="published">1</field>
+        </item>
+      </item>
+    </item>
+    <item objectTypeName="faq">
+      <field name="title">FAQ</field>
+      <field name="slug">faq</field>
+      <field name="published">1</field>
+      <item objectTypeName="faqList">
+        <field name="title">List of FAQ</field>
+        <field name="slug">list-of-faq</field>
+        <field name="published">1</field>
+        <item objectTypeName="review">
+          <field name="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a libero at erat placerat fringilla. Cras risus felis, consectetur nec venenatis sit amet, vestibulum id nisl. Nullam elementum cursus dui et adipiscing. Donec fermentum viverra nulla sed fri</field>
+          <field name="slug">slug0264951001360979866</field>
+          <field name="reviewText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a libero at erat placerat fringilla. Cras risus felis, consectetur nec venenatis sit amet, vestibulum id nisl. Nullam elementum cursus dui et adipiscing. Donec fermentum viverra nulla sed fringilla. Integer purus arcu, tempor eu ultricies eget, dapibus sit amet quam. Aenean lobortis, leo sollicitudin accumsan ullamcorper, lorem turpis aliquet lectus, et ultricies metus nibh quis nisl. Cras erat tellus, consectetur eget blandit commodo, sagittis quis quam. Aliquam tempus elementum feugiat.</field>
+          <field name="reviewName">Who wrote The Man from Nightstone?</field>
+          <field name="published">1</field>
+        </item>
+      </item>
+    </item>
+  </nodes>
+  <relationships>
+    <lattice name="publicSite"/>
+  </relationships>
+</data>
