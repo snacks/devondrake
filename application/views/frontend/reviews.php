@@ -1,0 +1,21 @@
+
+<div class="leftColumn">
+<div id="reviewList" >
+<?foreach($content['main']['reviewList'] as $reviewListItem):?>
+  <div class="review">
+  
+   <p class="reviewText"> <?=$reviewListItem['reviewText'];?></p>
+
+   <p class="reviewName"> <?=$reviewListItem['reviewName'];?></p>
+
+  </div>
+<?endforeach;?>
+</div>
+</div>
+
+<div class="rightColumn">
+<?if(is_object($content['main']['coverImage'])):?>
+ <img id="coverImage" src="<?=latticeurl::site($content['main']['coverImage']->original->fullpath);?>" width="<?=$content['main']['coverImage']->original->width;?>" height="<?=$content['main']['coverImage']->original->height;?>" alt="<?=$content['main']['coverImage']->original->filename;?>" />
+<?endif;?>
+
+</div>

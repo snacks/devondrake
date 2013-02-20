@@ -11,7 +11,7 @@ body{
 .container{
 	width:1000px;
 	height:auto;
-	background-color: rgba(0, 0, 0, .4);
+	background-color: rgba(0, 0, 0, .5);
 	margin:auto;
 }
 
@@ -29,6 +29,11 @@ border-bottom: rgba(160, 98, 79, .65) 2px solid;
 	float:left;
 	font-size:50px;
 	margin:15px 0;
+}
+
+.headName a{
+	text-decoration:none;
+	color: rgb(121, 12, 33);
 }
 
 .menu{
@@ -50,16 +55,24 @@ border-bottom: rgba(160, 98, 79, .65) 2px solid;
 .rightColumn{
 	float:right;
 	width:352px;
-
 }
 
 
 .reviewText{
-	font-size:36px;
+	font-size:32px;
+	margin:10px 0 0 20px;
 }
 
 .reviewer{
 	color: rgb(121, 12, 33);
-	font-size:12px;
+	font-size:16px;
+	margin:0 0 0 20px;
+	font-family:'Andale Mono',sans-serif;
 }
 
+.bookTitle{
+	margin:20px 0 0 20px;
+	font-size:32px;
+	font-family:'Andale Mono',sans-serif;
+	color: rgb(121, 12, 33);
+}
