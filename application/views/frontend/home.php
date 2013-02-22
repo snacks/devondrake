@@ -1,8 +1,8 @@
-
+<!-- <div class="main">-->
 
 <div class="leftColumn">
 
-<p class="reviewText"> <?=$content['main']['reviewText'];?></p>
+<p class="reviewText">" <?=$content['main']['reviewText'];?> "</p>
 
 <p class="reviewer"> <?=$content['main']['reviewer'];?></p>
 
@@ -28,4 +28,5 @@
 
 <p class="facebook"> <?=$content['main']['facebook'];?></p>
 <!-- the twitter widget goes here -->
+
 </div>

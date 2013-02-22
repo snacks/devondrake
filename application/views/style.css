@@ -10,15 +10,21 @@ body{
 
 .container{
 	width:1000px;
-	height:auto;
+	min-height: 620px;
 	background-color: rgba(0, 0, 0, .5);
 	margin:auto;
 }
 
+.active{
+	background-color:black;
+	border-bottom:rgb(160, 98, 79) 2px solid;
+	padding:3px 0 6px 0;
+}
+
 .header{
 width:1000px;
-height:74px;
-margin:38px auto;
+height:54px;
+margin:30px auto;
 color: rgb(121, 12, 33);
 background-color: rgba(0, 0, 0, .4);
 font-family:'Andale Mono',sans-serif;
@@ -28,7 +34,6 @@ border-bottom: rgba(160, 98, 79, .65) 2px solid;
 .headName{
 	float:left;
 	font-size:50px;
-	margin:15px 0;
 }
 
 .headName a{
@@ -38,7 +43,7 @@ border-bottom: rgba(160, 98, 79, .65) 2px solid;
 
 .menu{
 	float:right;
-	margin:45px 15px 0;
+	margin:30px 15px 0;
 }
 
 .menu a{
@@ -48,31 +53,70 @@ border-bottom: rgba(160, 98, 79, .65) 2px solid;
 }
 
 .leftColumn{
-	width:648px;
+	width:600px;
 	float:left;
+	margin-left:20px;
 }
+
 
 .rightColumn{
 	float:right;
 	width:352px;
 }
 
+.rightColumn img{
+	float:right;
+	margin-right:20px;
+}
 
 .reviewText{
 	font-size:32px;
-	margin:10px 0 0 20px;
+	margin:10px 0 0 0px;
 }
 
 .reviewer{
 	color: rgb(121, 12, 33);
 	font-size:16px;
-	margin:0 0 0 20px;
+	margin:0 0 0 0px;
 	font-family:'Andale Mono',sans-serif;
 }
 
 .bookTitle{
-	margin:20px 0 0 20px;
+	margin:20px 0 0 0px;
 	font-size:32px;
 	font-family:'Andale Mono',sans-serif;
 	color: rgb(121, 12, 33);
+}
+
+.synopsis{
+	font-size:14px;
+}
+
+.twtr{
+	position:fixed;
+	z-index:2;
+	bottom:0;
+	left:61%;
+}
+
+.twtr-doc{
+	border-top: rgba(160, 98, 79, .65) 2px solid;
+	border-right: rgba(160, 98, 79, .65) 2px solid;
+	border-left: rgba(160, 98, 79, .65) 2px solid;
+}
+
+.review{
+	text-align:center;
+}
+
+.reviewer{
+	margin-bottom:50px;
+}
+
+/*faq*/
+
+
+
+.footer{
+	display:none;
 }

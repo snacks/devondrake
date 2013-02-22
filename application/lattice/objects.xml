@@ -17,6 +17,7 @@
 				<ext>jpeg</ext>
 				<ext>tiff</ext>
 				<ext>tif</ext>
+				<ext>png</ext>
 			</image>
 			<text name="goodreads" label="Link to Goodreads"/>
 			<text name="facebook" label="link to Facebook"/>
@@ -32,6 +33,7 @@
 				<ext>jpeg</ext>
 				<ext>tiff</ext>
 				<ext>tif</ext>
+				<ext>png</ext>
 			</image>
 		</elements>
 	</objectType>
@@ -43,6 +45,7 @@
 				<ext>jpeg</ext>
 				<ext>tiff</ext>
 				<ext>tif</ext>
+				<ext>png</ext>
 			</image>
 		<list name="reviewList" label="Reviews">
 			<addableObject objectTypeName="review" addText="Add a Review"/>

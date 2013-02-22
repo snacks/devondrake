@@ -14,7 +14,6 @@
 <?=Request::Factory('publicmenu')->execute()->body();?>
 <div class="container">
 <?=$body;?>
-
 <?=Request::Factory('footer/public')->execute()->body();?>
 </div>
 </body>

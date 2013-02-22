@@ -4,7 +4,7 @@
 <?foreach($content['main']['reviewList'] as $reviewListItem):?>
   <div class="review">
   
-   <p class="reviewText"> <?=$reviewListItem['reviewText'];?></p>
+   <p class="bookTitle">" <?=$reviewListItem['reviewText'];?> "</p>
 
    <p class="reviewName"> <?=$reviewListItem['reviewName'];?></p>
 
