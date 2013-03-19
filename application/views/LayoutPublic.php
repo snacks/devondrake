@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="content-script-type" content="text/javascript">
-	<title>LatticeCMS &ldquo;It's Made of People!&rdquo;</title>
+	<title>Devon Drake</title>
 	<?=$stylesheet;?>
 	<?=$javascript;?>
 	<link href="application/views/style.css" rel="stylesheet" type="text/css">

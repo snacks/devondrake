@@ -1,4 +1,11 @@
+
 <div class="twtr">
+
+<div class="social">
+<a href=""><img src="application/views/images/fSmall.png"></a>
+<a href=""><img src="application/views/images/goodreads.png"></a>
+</div>
+
 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
