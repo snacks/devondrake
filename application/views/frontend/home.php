@@ -10,7 +10,7 @@
 
 <p class="synopsis"> <?=$content['main']['synopsis'];?></p>
 
-<p class="linkToPurchase"> <?=$content['main']['linkToPurchase'];?></p>
+<p class="linkToPurchase"><a href=" <?=$content['main']['linkToPurchase'];?>"> Buy the Book! </a></p>
 </div>
 
 
