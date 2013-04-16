@@ -10,7 +10,7 @@
 
 <p class="synopsis"> <?=$content['main']['synopsis'];?></p>
 
-<p class="linkToPurchase"><a href=" <?=$content['main']['linkToPurchase'];?>"> Buy the Book! </a></p>
+<a href=" <?=$content['main']['linkToPurchase'];?>" style="color:rgb(121, 12, 33);font-size:24px;">Buy the Book!</a>
 </div>
 
 
@@ -23,10 +23,10 @@
 <?endif;?>
 
 
-
+<!--
 <p class="goodreads"> <?=$content['main']['goodreads'];?></p>
 
 <p class="facebook"> <?=$content['main']['facebook'];?></p>
-<!-- the twitter widget goes here -->
+ the twitter widget goes here -->
 
 </div>

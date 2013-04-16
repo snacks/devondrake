@@ -115,8 +115,13 @@ border-bottom: rgba(160, 98, 79, .65) 2px solid;
 
 /*faq*/
 
+.social{
+	margin-left:270px;
+}
 
-
+.social a{
+	margin-left:10px;
+}
 .footer{
 	display:none;
 }
