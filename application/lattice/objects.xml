@@ -47,16 +47,19 @@
 				<ext>tif</ext>
 				<ext>png</ext>
 			</image>
-		<list name="reviewList" label="Reviews">
-			<addableObject objectTypeName="review" addText="Add a Review"/>
+		<list name="reviewList" label="Downloads">
+			<addableObject objectTypeName="review" addText="Add a Download"/>
 		</list>
 	</elements>
 	</objectType>
 
 	<objectType name="review" contentType="document" allowChildSort="false" allowDelete="false" allowTogglePublish="false">
 		<elements>
-			<text name="reviewText" label="Review Text"/>
-			<text name="reviewName" label="Review Name"/>
+			<text name="reviewText" label="Title Text"/>
+			<text name="reviewName" label="Description"/>
+			<file name="freePDF" label="PDF">
+				<ext>pdf</ext>
+		</file>
 		</elements>
 	</objectType>
 

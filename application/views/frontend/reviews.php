@@ -4,9 +4,13 @@
 <?foreach($content['main']['reviewList'] as $reviewListItem):?>
   <div class="review">
   
-   <p class="bookTitle">" <?=$reviewListItem['reviewText'];?> "</p>
+   <p class="bookTitle"> <?=$reviewListItem['reviewText'];?> </p>
 
    <p class="reviewName"> <?=$reviewListItem['reviewName'];?></p>
+	<?if(is_object($reviewListItem['freePDF'])):?>
+	   <a href="<?=$reviewListItem['freePDF']->fullpath;?>"><?=$reviewListItem['freePDF']->filename;?></a>
+
+   <?endif;?>
 
   </div>
 <?endforeach;?>
